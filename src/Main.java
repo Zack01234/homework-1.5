@@ -19,7 +19,7 @@ public class Main {
         }
         System.out.print(arr[arr.length - 1]);
         System.out.println();
-        for (int i = 0; i < brr.length; i++) {
+        for (int i = 0; i < brr.length; i++) { //этот вариант лучше, чем второй. Причина проста: закрылся цикл -> закрылась вся работа связанная в нем
             System.out.print(brr[i]);
             if (i != brr.length - 1) {
                 System.out.print(", ");
